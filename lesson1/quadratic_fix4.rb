@@ -13,6 +13,12 @@ if d < 0
   puts "корней нет"
 end
 
+if d == 0
+  root = Math.sqrt(d)
+  x1 = -b + root / 2 * a
+  
+puts "Дискриминант #{d} , 1 корень #{x1.to_f}"
+
 if d > 0
   root = Math.sqrt(d)
   x1 = -b + root / 2 * a
